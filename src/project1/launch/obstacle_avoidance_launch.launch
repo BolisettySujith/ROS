@@ -1,0 +1,8 @@
+<launch>
+	<node
+		name = "obstacle_avoidance_robot_motion"
+		pkg = "project1"
+		type = "obstacle_avoidance.py"
+		output = "screen"
+	/>
+</launch>
